@@ -1,0 +1,145 @@
+/* .bg-light{
+    background-color: transparent !important;
+}
+.navbar-light{
+    background-color: transparent !important;
+} */
+.sreen{
+    background-color: white !important;
+    opacity: 0.8;
+}
+.nav-link:hover{
+    color:green !important;
+}
+.tp{
+    margin-top:200px;
+}
+
+.man{
+    font-weight: 700;
+    color:black;
+}
+
+
+.min{
+    margin-left: 200px;
+}
+
+
+#color-fa, #color-a{
+    color:green !important;
+}
+
+#color-a{
+    text-decoration: none;
+}
+
+
+.new{
+    margin-top: 150px;
+}
+
+.expert, .strategy{
+    margin-top: 150px;
+}
+
+
+.point{
+    margin-bottom:100px;
+}
+
+.deck,.footer{
+    margin-bottom:200px;
+}
+
+span:hover{
+    color:green;
+
+}
+
+.footnote{
+    text-decoration: none;
+    color:green;
+}
+
+.footnote:hover{
+    color:green;
+}
+
+@media screen and (min-width:200px) and (max-width: 900px) {
+   
+    .sign{
+        width:150px !important;
+        margin-bottom: 5px !important;}
+    
+     .sign1{
+         width:150px !important;
+         margin-bottom:8px !important;
+         background-color: rgb(12, 14, 10);
+         border:none;
+         color:white;
+        
+     } 
+     
+     .nav-link{
+         font-size: 18px;
+         color:black !important;
+         font-weight: lighter; 
+     }
+
+     .tp{
+         margin-top:350px !important;
+     }
+
+       /* .under{
+         margin-left:25%;
+     }   */
+
+     .change{
+         font-size:20px;
+     } 
+
+     .change1{
+         display:flex;
+         flex-direction: column;
+         align-items: center;
+     }
+
+
+     .min{
+         margin-left: 0px;
+     }
+
+     .change2{
+         display:flex;
+         direction: column;
+         
+     }
+
+     .watch{
+         margin-top:15px;
+     }
+
+     .frame{
+         margin-top:100px;
+         width:400px;
+         height:300px;
+         position:relative;
+         transform: translateX(-50%);
+         transform: translateY(-50%);
+         top:200px;
+         left:0px;
+     }
+    
+}
+@media screen and (min-width:1440px) and (max-width: 1138px){
+    .nav-link{
+        font-weight:bolder !important;
+    }
+}
+
+@media screen and (width:768) and (max-width: 570px){
+    /* .change1{
+     margin-left: 3px;
+    } */
+}
